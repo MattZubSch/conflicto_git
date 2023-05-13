@@ -1,10 +1,10 @@
 //funcion de prueba
 
-function factorial(n) {
+function obtenerFactorial(n) {
     if (n == 0) {
         return 1;
     }
-    return n * factorial(n - 1);
+    return n * obtenerFactorial(n - 1);
 }
 
-console.log(factorial(4));
+console.log(obtenerFactorial(4));
