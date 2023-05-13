@@ -8,3 +8,9 @@ function factorial(n) {
 }
 
 console.log(factorial(4));
+
+function raizCuadrada(n) {
+    return Math.sqrt(n);
+}
+
+console.log(raizCuadrada(4));
