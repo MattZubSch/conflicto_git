@@ -1,12 +1,11 @@
 //funcion de prueba
 
-function factorial(n) {
-    if (n == 0) {
+function obtenerFactorial(numero) {
+    if (numero == 0) {
         return 1;
     }
-    return n * factorial(n - 1);
+    return numero * obtenerFactorial(numero - 1);
 }
-
 console.log(factorial(4));
 
 function raizCuadrada(n) {
@@ -14,3 +13,4 @@ function raizCuadrada(n) {
 }
 
 console.log(raizCuadrada(4));
+
