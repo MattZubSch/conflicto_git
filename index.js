@@ -1,10 +1,10 @@
 //funcion de prueba
 
-function obtenerFactorial(num) {
-    if (num == 0) {
+function obtenerFactorial(numero) {
+    if (numero == 0) {
         return 1;
     }
-    return num * obtenerFactorial(num - 1);
+    return numero * obtenerFactorial(numero - 1);
 }
 
 console.log(obtenerFactorial(4));
