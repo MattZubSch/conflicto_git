@@ -6,5 +6,11 @@ function obtenerFactorial(numero) {
     }
     return numero * obtenerFactorial(numero - 1);
 }
+console.log(factorial(4));
 
-console.log(obtenerFactorial(4));
+function raizCuadrada(n) {
+    return Math.sqrt(n);
+}
+
+console.log(raizCuadrada(4));
+
